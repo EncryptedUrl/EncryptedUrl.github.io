@@ -1,60 +1,10 @@
 <!doctype html>
 <html>
-	<style>
-	.wrapper{
-	margin-top: 60px;
-	text-align: center;
-	font-family: 'Montserrat', sans-serif;
-}
-.wrapper h1{
-	font-size: 48px;
-	color: #fff;
-	margin-bottom: 25px;
-}
-.wrapper .our_team{
-	display: flex;
-	width: auto;
-	justify-content: center;
-}
-.wrapper .our_team .team_member{
-	width: 250px;
-	margin: 5px;
-	background: #fff;
-	padding: 20px 10px;
-	border-radius: 2%
-}
-.wrapper .our_team .team_member .member_img{
-	background: lightsteelblue;
-	max-width: 190px;
-	width: 100%;
-	height: 190px;
-	height: 190px;
-	margin: 0 auto;
-	border-radius: 50%;
-	padding: 5px;
-	
-	
-}
-.wrapper .our_team .team_member .member_img img{
-	width: 100%;
-	height: 100%;
-}
-
-.wrapper .our_team .team_member h3{
-	text-transform: uppercase;
-	font-size: 18px;
-	line-height: 18px;
-	margin: 15px 0 0;
-}
-
-.wrapper .our_team .team_member span{
-	font-size: 10px
-}
-.wrapper .our_team .team_member p{
-	margin-top: 5px;
-	font-size: 14px;
-	line-height: 20px;
-}
+<style>
+	p2 {
+		color: gray;
+		font-family: 'Montserrat', sans-serif;
+	}
 	</style>
 <head>
 	<meta charset="utf-8">
@@ -72,24 +22,38 @@
 			<ul class="nav_links">
 				<li><a href="index.html">Home</a></li>
 				<li><a href="Team.html">Our Team</a></li>
-				<li><a href="Specification.html">Job Specifications</a></li>
 				<li><a href="employment.html">Employment</a></li>
 				<li><a href="course.html">Course Links</a></li>
 			</ul>
 		</nav>
-		<a class="cta" class="active"  href="contact.html"><button>Contact</button></a>
+		<a class="cta"  href="#"><button>Contact</button></a>
 	</header>
-	<div class="wrapper">
-		<h1>About Us</h1>
-		<div class="our_team">
-			<div class="team_member">
-			<p>Description of company here</p>
+	<div class="wrapper-jobs">
+		<div class="title-jobs">
+	    Contact us&nbsp; &nbsp; </div>
+		<div class="form">
+			<p2>Please fill out the contact form below and one of our team will reach out within the next 24 hours.<br><br> Please fill out all boxes with a *</p2>
+			<div class="input_field">
+				<label>Full Name*</label>
+				<input type="text" class="input">
 			</div>
-			
-			<div class="team_member">
-			<p>A picture of the company here </p>
+			<div class="input_field">
+				<label>Email Address*</label>
+				<input type="text" class="input">
+			</div>
+			<div class="input_field">
+				<label>Phone Number</label>
+				<input type="text" class="input">
+			</div>
+			<div class="input_field">
+				<label>Message*</label>
+				<textarea class="textarea" ></textarea>
+			</div>
+			<div class="input_field">
+				<input type="submit" value="Send" class="btn">
 			</div>
 		</div>
 	</div>
+	
 </body>
 </html>
