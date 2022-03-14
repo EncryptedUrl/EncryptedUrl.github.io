@@ -1,21 +1,64 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
+<style>
+	p2 {
+		color: gray;
+		font-family: 'Montserrat', sans-serif;
+	}
+	</style>
 <head>
-<link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Hot Beans Web </title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="logo3.png">
+  <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 </head>
 <body>
-<script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
-  
-<form action="https://send.pageclip.co/2V8vASR0jNhmuHz67cwSywa2aTL7kWgL" class="pageclip-form" method="post">
-  <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
-  <input type="text" name="full name" value="Roscoe Jones" />
-  <input type="email" name="email" value="roscoe@example.com" />
+	<header>
+		<a href="index.html"><img width="125" class="logo" src="images/logo3.png" alt="logo"></a>
+		<nav>
+			<ul class="nav_links">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="Team.html">Our Team</a></li>
+				<li><a href="Specification.html">Job Specifications</a></li>
+				<li><a href="employment.html">Employment</a></li>
+				<li><a href="course.html">Course Links</a></li>
+			</ul>
+		</nav>
+		<a class="cta"  href="#"><button>Contact</button></a>
+	</header>
+	<div class="wrapper-jobs">
+		<div class="title-jobs">
+	    Contact us&nbsp; &nbsp; </div>
+		<div class="form">
+      <form action="https://send.pageclip.co/2V8vASR0jNhmuHz67cwSywa2aTL7kWgL/apply" class="pageclip-form" method="post">
+			<p2>Please fill out the contact form below and one of our team will reach out within the next 24 hours.<br><br> Please fill out all boxes with a *</p2>
+			<div class="input_field">
+				<label>Full Name*</label>
+				<input type="text" class="input" name="Name">
+			</div>
+			<div class="input_field">
+				<label>Email Address*</label>
+				<input type="text" class="input" name="Email">
+			</div>
+			<div class="input_field">
+				<label>Phone Number</label>
+				<input type="text" class="input" name="Phone number">
+			</div>
+			<div class="input_field">
+				<label>Message*</label>
+				<input type="text" class="input" name="message">
+			</div>
+			<div class="input_field">
+				<input type="submit" value="Send" class="btn" class="pageclip-form__submit">
+			</div>
+      </form>
+		</div>
+	</div>
+	<script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 
-  <!-- This button will have a loading spinner. Keep the inner span for best results. -->
-  <button type="submit" class="pageclip-form__submit">
-    <span>Send</span>
-  </button>
-</form>
-  
 </body>
 </html>
